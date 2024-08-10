@@ -1,7 +1,7 @@
 class User:
     def __init__(self, username, password):
         self.username = username
-        self.password = password  # Note: In a real application, never store passwords in plain text
+        self.password = password 
 
 class Reservation:
     def __init__(self, username, time_slot):
